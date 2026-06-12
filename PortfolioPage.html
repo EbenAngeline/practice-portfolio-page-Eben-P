@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Page</title>
+    <link rel="Stylesheet" type="text/css" href ="Style.css">
 </head>
 <body>
 <header>
@@ -11,13 +12,19 @@
     <p> Web Developer , Designer</p>
     </header>
     <section id ="about">
+        <div id="image">
+            <img src="eben.jpeg" width="200" alt = "My picture">
+        </div>
         <h2>About me</h2>
         <p> My name is Eben Angeline. I am  a passionate web developer. 
-            I enjoy learning new technology and building creative projects</p>
+            I enjoy learning new technology and building creative projects.</p>
+            
             <h2>Hobbies</h2>
+            <ul>
             <li>Coding</li>
             <li>Gardering</li>
             <li>Reading</li>
+            </ul>
     </section>
     <section id ="Skills">
         <h2>Skill</h2>
@@ -28,7 +35,7 @@
         </tr>
         <tr>
            <td>HTML</td> 
-           <td>Beginner</td>
+           <td>Beginner</t d>
         </tr>
         <tr>
             <td> CSS</td>
@@ -49,7 +56,12 @@
     <input type ="email" id ="email" ><br><br>
     <label for = "Message"> Message: </label><br>
     <textarea id ="message" name = "message" rows ="5" cols ="50"></textarea><br><br>
-    <input type = "submit"value= "Send Message">
+    
+    
+    <div id = "submit">
+        <input type = "submit" value="Send Message">
+    </div>
+    
     </form>
 </section>
 
